@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 50px;
+  justify-content: baseline;
+}
+
+.gecko-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.copyright {
+  margin-left: 30px;
+}
