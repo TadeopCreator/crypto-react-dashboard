@@ -37,7 +37,7 @@ function App() {
         <Sidebar/>        
         <div className="display">
           <Routes>
-            <Route path="/" exact element={<Cryptocurrencies onChange={handleChange} coins={filteredCoins}/>} />
+            <Route path="/crypto-react-dashboard" element={<Cryptocurrencies onChange={handleChange} coins={filteredCoins}/>} />
             <Route path="/exchanges" element={<Exchanges />} />
           </Routes>
       <Footer />
