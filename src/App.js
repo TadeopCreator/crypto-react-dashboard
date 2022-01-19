@@ -3,7 +3,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Cryptocurrencies from "./components/Cryptocurrencies";
 import Exchanges from "./components/exchanges/Exchanges";
 import Footer from "./components/footer/Footer";
-import './app.css'
+import './App.css'
 import { useState, useEffect } from "react"
 import axios from 'axios'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'

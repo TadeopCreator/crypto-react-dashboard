@@ -9,7 +9,7 @@ const Sidebar = () => {
           <div className="sidebarMenu">
               <h3 className="sidebarTittle">Dashboard</h3>
               <ul className="sidebarList">
-                  <Link to='/' className="sidebarListItem">
+                  <Link to='/crypto-react-dashboard' className="sidebarListItem">
                       <LineStyle className='sidebarIcon'/>
                       Cryptocurrencies
                   </Link>
